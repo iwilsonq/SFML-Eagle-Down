@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D1527201C60512D000B4404 /* Aircraft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526BC1C60512D000B4404 /* Aircraft.cpp */; };
+		2D1527211C60512D000B4404 /* Animation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526BE1C60512D000B4404 /* Animation.cpp */; };
+		2D1527221C60512D000B4404 /* Application.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526C01C60512D000B4404 /* Application.cpp */; };
+		2D1527231C60512D000B4404 /* BloomEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526C21C60512D000B4404 /* BloomEffect.cpp */; };
+		2D1527241C60512D000B4404 /* Button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526C41C60512D000B4404 /* Button.cpp */; };
+		2D1527251C60512D000B4404 /* Command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526C71C60512D000B4404 /* Command.cpp */; };
+		2D1527261C60512D000B4404 /* CommandQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526C91C60512D000B4404 /* CommandQueue.cpp */; };
+		2D1527271C60512D000B4404 /* Component.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526CB1C60512D000B4404 /* Component.cpp */; };
+		2D1527281C60512D000B4404 /* Container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526CD1C60512D000B4404 /* Container.cpp */; };
+		2D1527291C60512D000B4404 /* DataTables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526CF1C60512D000B4404 /* DataTables.cpp */; };
+		2D15272A1C60512D000B4404 /* EmitterNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526D11C60512D000B4404 /* EmitterNode.cpp */; };
+		2D15272B1C60512D000B4404 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526D31C60512D000B4404 /* Entity.cpp */; };
+		2D15272C1C60512D000B4404 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526D61C60512D000B4404 /* Game.cpp */; };
+		2D15272D1C60512D000B4404 /* GameOverState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526D81C60512D000B4404 /* GameOverState.cpp */; };
+		2D15272E1C60512D000B4404 /* GameServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526DA1C60512D000B4404 /* GameServer.cpp */; };
+		2D15272F1C60512D000B4404 /* GameState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526DC1C60512D000B4404 /* GameState.cpp */; };
+		2D1527301C60512D000B4404 /* KeyBinding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526DE1C60512D000B4404 /* KeyBinding.cpp */; };
+		2D1527311C60512D000B4404 /* Label.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526E01C60512D000B4404 /* Label.cpp */; };
+		2D1527321C60512D000B4404 /* LoadingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526E21C60512D000B4404 /* LoadingState.cpp */; };
+		2D1527331C60512D000B4404 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526E41C60512D000B4404 /* Main.cpp */; };
+		2D1527341C60512D000B4404 /* MenuState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526E51C60512D000B4404 /* MenuState.cpp */; };
+		2D1527351C60512D000B4404 /* MultiplayerGameState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526E71C60512D000B4404 /* MultiplayerGameState.cpp */; };
+		2D1527361C60512D000B4404 /* Music in Resources */ = {isa = PBXBuildFile; fileRef = 2D1526E91C60512D000B4404 /* Music */; };
+		2D1527371C60512D000B4404 /* MusicPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526EA1C60512D000B4404 /* MusicPlayer.cpp */; };
+		2D1527381C60512D000B4404 /* NetworkNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526EC1C60512D000B4404 /* NetworkNode.cpp */; };
+		2D1527391C60512D000B4404 /* ParallelTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526EF1C60512D000B4404 /* ParallelTask.cpp */; };
+		2D15273A1C60512D000B4404 /* ParticleNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526F21C60512D000B4404 /* ParticleNode.cpp */; };
+		2D15273B1C60512D000B4404 /* PauseState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526F41C60512D000B4404 /* PauseState.cpp */; };
+		2D15273C1C60512D000B4404 /* Pickup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526F61C60512D000B4404 /* Pickup.cpp */; };
+		2D15273D1C60512D000B4404 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526F81C60512D000B4404 /* Player.cpp */; };
+		2D15273E1C60512D000B4404 /* PostEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526FA1C60512D000B4404 /* PostEffect.cpp */; };
+		2D15273F1C60512D000B4404 /* Projectile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526FC1C60512D000B4404 /* Projectile.cpp */; };
+		2D1527401C60512D000B4404 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526FE1C60512D000B4404 /* README.md */; };
+		2D1527411C60512D000B4404 /* ResourceHolder.inl in Resources */ = {isa = PBXBuildFile; fileRef = 2D1527001C60512D000B4404 /* ResourceHolder.inl */; };
+		2D1527421C60512D000B4404 /* Sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D1527021C60512D000B4404 /* Sansation.ttf */; };
+		2D1527431C60512D000B4404 /* SceneNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1527031C60512D000B4404 /* SceneNode.cpp */; };
+		2D1527441C60512D000B4404 /* SettingsState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1527051C60512D000B4404 /* SettingsState.cpp */; };
+		2D1527451C60512D000B4404 /* Shaders in Resources */ = {isa = PBXBuildFile; fileRef = 2D1527071C60512D000B4404 /* Shaders */; };
+		2D1527461C60512D000B4404 /* Sound in Resources */ = {isa = PBXBuildFile; fileRef = 2D1527081C60512D000B4404 /* Sound */; };
+		2D1527471C60512D000B4404 /* SoundNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1527091C60512D000B4404 /* SoundNode.cpp */; };
+		2D1527481C60512D000B4404 /* SoundPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D15270B1C60512D000B4404 /* SoundPlayer.cpp */; };
+		2D1527491C60512D000B4404 /* SpriteNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D15270D1C60512D000B4404 /* SpriteNode.cpp */; };
+		2D15274A1C60512D000B4404 /* State.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D15270F1C60512D000B4404 /* State.cpp */; };
+		2D15274B1C60512D000B4404 /* StateStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1527121C60512D000B4404 /* StateStack.cpp */; };
+		2D15274C1C60512D000B4404 /* StringHelpers.inl in Resources */ = {isa = PBXBuildFile; fileRef = 2D1527151C60512D000B4404 /* StringHelpers.inl */; };
+		2D15274D1C60512D000B4404 /* TextNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1527161C60512D000B4404 /* TextNode.cpp */; };
+		2D15274E1C60512D000B4404 /* Textures in Resources */ = {isa = PBXBuildFile; fileRef = 2D1527181C60512D000B4404 /* Textures */; };
+		2D15274F1C60512D000B4404 /* TitleState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1527191C60512D000B4404 /* TitleState.cpp */; };
+		2D1527501C60512D000B4404 /* Utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D15271B1C60512D000B4404 /* Utility.cpp */; };
+		2D1527511C60512D000B4404 /* Utility.inl in Resources */ = {isa = PBXBuildFile; fileRef = 2D15271D1C60512D000B4404 /* Utility.inl */; };
+		2D1527521C60512D000B4404 /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D15271E1C60512D000B4404 /* World.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D1526A41C60509D000B4404 /* SFML Eagle Down.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SFML Eagle Down.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1526A81C60509D000B4404 /* SFML Eagle Down-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFML Eagle Down-Info.plist"; sourceTree = "<group>"; };
+		2D1526BC1C60512D000B4404 /* Aircraft.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Aircraft.cpp; sourceTree = "<group>"; };
+		2D1526BD1C60512D000B4404 /* Aircraft.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Aircraft.hpp; sourceTree = "<group>"; };
+		2D1526BE1C60512D000B4404 /* Animation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Animation.cpp; sourceTree = "<group>"; };
+		2D1526BF1C60512D000B4404 /* Animation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Animation.hpp; sourceTree = "<group>"; };
+		2D1526C01C60512D000B4404 /* Application.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Application.cpp; sourceTree = "<group>"; };
+		2D1526C11C60512D000B4404 /* Application.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Application.hpp; sourceTree = "<group>"; };
+		2D1526C21C60512D000B4404 /* BloomEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BloomEffect.cpp; sourceTree = "<group>"; };
+		2D1526C31C60512D000B4404 /* BloomEffect.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BloomEffect.hpp; sourceTree = "<group>"; };
+		2D1526C41C60512D000B4404 /* Button.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Button.cpp; sourceTree = "<group>"; };
+		2D1526C51C60512D000B4404 /* Button.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Button.hpp; sourceTree = "<group>"; };
+		2D1526C61C60512D000B4404 /* Category.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Category.hpp; sourceTree = "<group>"; };
+		2D1526C71C60512D000B4404 /* Command.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Command.cpp; sourceTree = "<group>"; };
+		2D1526C81C60512D000B4404 /* Command.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Command.hpp; sourceTree = "<group>"; };
+		2D1526C91C60512D000B4404 /* CommandQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommandQueue.cpp; sourceTree = "<group>"; };
+		2D1526CA1C60512D000B4404 /* CommandQueue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CommandQueue.hpp; sourceTree = "<group>"; };
+		2D1526CB1C60512D000B4404 /* Component.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Component.cpp; sourceTree = "<group>"; };
+		2D1526CC1C60512D000B4404 /* Component.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Component.hpp; sourceTree = "<group>"; };
+		2D1526CD1C60512D000B4404 /* Container.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Container.cpp; sourceTree = "<group>"; };
+		2D1526CE1C60512D000B4404 /* Container.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Container.hpp; sourceTree = "<group>"; };
+		2D1526CF1C60512D000B4404 /* DataTables.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DataTables.cpp; sourceTree = "<group>"; };
+		2D1526D01C60512D000B4404 /* DataTables.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DataTables.hpp; sourceTree = "<group>"; };
+		2D1526D11C60512D000B4404 /* EmitterNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EmitterNode.cpp; sourceTree = "<group>"; };
+		2D1526D21C60512D000B4404 /* EmitterNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EmitterNode.hpp; sourceTree = "<group>"; };
+		2D1526D31C60512D000B4404 /* Entity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Entity.cpp; sourceTree = "<group>"; };
+		2D1526D41C60512D000B4404 /* Entity.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Entity.hpp; sourceTree = "<group>"; };
+		2D1526D51C60512D000B4404 /* Foreach.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Foreach.hpp; sourceTree = "<group>"; };
+		2D1526D61C60512D000B4404 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		2D1526D71C60512D000B4404 /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		2D1526D81C60512D000B4404 /* GameOverState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameOverState.cpp; sourceTree = "<group>"; };
+		2D1526D91C60512D000B4404 /* GameOverState.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameOverState.hpp; sourceTree = "<group>"; };
+		2D1526DA1C60512D000B4404 /* GameServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameServer.cpp; sourceTree = "<group>"; };
+		2D1526DB1C60512D000B4404 /* GameServer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameServer.hpp; sourceTree = "<group>"; };
+		2D1526DC1C60512D000B4404 /* GameState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameState.cpp; sourceTree = "<group>"; };
+		2D1526DD1C60512D000B4404 /* GameState.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameState.hpp; sourceTree = "<group>"; };
+		2D1526DE1C60512D000B4404 /* KeyBinding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KeyBinding.cpp; sourceTree = "<group>"; };
+		2D1526DF1C60512D000B4404 /* KeyBinding.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = KeyBinding.hpp; sourceTree = "<group>"; };
+		2D1526E01C60512D000B4404 /* Label.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Label.cpp; sourceTree = "<group>"; };
+		2D1526E11C60512D000B4404 /* Label.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Label.hpp; sourceTree = "<group>"; };
+		2D1526E21C60512D000B4404 /* LoadingState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoadingState.cpp; sourceTree = "<group>"; };
+		2D1526E31C60512D000B4404 /* LoadingState.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LoadingState.hpp; sourceTree = "<group>"; };
+		2D1526E41C60512D000B4404 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		2D1526E51C60512D000B4404 /* MenuState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenuState.cpp; sourceTree = "<group>"; };
+		2D1526E61C60512D000B4404 /* MenuState.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MenuState.hpp; sourceTree = "<group>"; };
+		2D1526E71C60512D000B4404 /* MultiplayerGameState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultiplayerGameState.cpp; sourceTree = "<group>"; };
+		2D1526E81C60512D000B4404 /* MultiplayerGameState.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MultiplayerGameState.hpp; sourceTree = "<group>"; };
+		2D1526E91C60512D000B4404 /* Music */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Music; sourceTree = "<group>"; };
+		2D1526EA1C60512D000B4404 /* MusicPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MusicPlayer.cpp; sourceTree = "<group>"; };
+		2D1526EB1C60512D000B4404 /* MusicPlayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MusicPlayer.hpp; sourceTree = "<group>"; };
+		2D1526EC1C60512D000B4404 /* NetworkNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkNode.cpp; sourceTree = "<group>"; };
+		2D1526ED1C60512D000B4404 /* NetworkNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NetworkNode.hpp; sourceTree = "<group>"; };
+		2D1526EE1C60512D000B4404 /* NetworkProtocol.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NetworkProtocol.hpp; sourceTree = "<group>"; };
+		2D1526EF1C60512D000B4404 /* ParallelTask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParallelTask.cpp; sourceTree = "<group>"; };
+		2D1526F01C60512D000B4404 /* ParallelTask.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ParallelTask.hpp; sourceTree = "<group>"; };
+		2D1526F11C60512D000B4404 /* Particle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Particle.hpp; sourceTree = "<group>"; };
+		2D1526F21C60512D000B4404 /* ParticleNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParticleNode.cpp; sourceTree = "<group>"; };
+		2D1526F31C60512D000B4404 /* ParticleNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ParticleNode.hpp; sourceTree = "<group>"; };
+		2D1526F41C60512D000B4404 /* PauseState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PauseState.cpp; sourceTree = "<group>"; };
+		2D1526F51C60512D000B4404 /* PauseState.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PauseState.hpp; sourceTree = "<group>"; };
+		2D1526F61C60512D000B4404 /* Pickup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pickup.cpp; sourceTree = "<group>"; };
+		2D1526F71C60512D000B4404 /* Pickup.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Pickup.hpp; sourceTree = "<group>"; };
+		2D1526F81C60512D000B4404 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		2D1526F91C60512D000B4404 /* Player.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		2D1526FA1C60512D000B4404 /* PostEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PostEffect.cpp; sourceTree = "<group>"; };
+		2D1526FB1C60512D000B4404 /* PostEffect.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PostEffect.hpp; sourceTree = "<group>"; };
+		2D1526FC1C60512D000B4404 /* Projectile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Projectile.cpp; sourceTree = "<group>"; };
+		2D1526FD1C60512D000B4404 /* Projectile.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Projectile.hpp; sourceTree = "<group>"; };
+		2D1526FE1C60512D000B4404 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2D1526FF1C60512D000B4404 /* ResourceHolder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ResourceHolder.hpp; sourceTree = "<group>"; };
+		2D1527001C60512D000B4404 /* ResourceHolder.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ResourceHolder.inl; sourceTree = "<group>"; };
+		2D1527011C60512D000B4404 /* ResourceIdentifiers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ResourceIdentifiers.hpp; sourceTree = "<group>"; };
+		2D1527021C60512D000B4404 /* Sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sansation.ttf; sourceTree = "<group>"; };
+		2D1527031C60512D000B4404 /* SceneNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneNode.cpp; sourceTree = "<group>"; };
+		2D1527041C60512D000B4404 /* SceneNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SceneNode.hpp; sourceTree = "<group>"; };
+		2D1527051C60512D000B4404 /* SettingsState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SettingsState.cpp; sourceTree = "<group>"; };
+		2D1527061C60512D000B4404 /* SettingsState.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SettingsState.hpp; sourceTree = "<group>"; };
+		2D1527071C60512D000B4404 /* Shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Shaders; sourceTree = "<group>"; };
+		2D1527081C60512D000B4404 /* Sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sound; sourceTree = "<group>"; };
+		2D1527091C60512D000B4404 /* SoundNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundNode.cpp; sourceTree = "<group>"; };
+		2D15270A1C60512D000B4404 /* SoundNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SoundNode.hpp; sourceTree = "<group>"; };
+		2D15270B1C60512D000B4404 /* SoundPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundPlayer.cpp; sourceTree = "<group>"; };
+		2D15270C1C60512D000B4404 /* SoundPlayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SoundPlayer.hpp; sourceTree = "<group>"; };
+		2D15270D1C60512D000B4404 /* SpriteNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpriteNode.cpp; sourceTree = "<group>"; };
+		2D15270E1C60512D000B4404 /* SpriteNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SpriteNode.hpp; sourceTree = "<group>"; };
+		2D15270F1C60512D000B4404 /* State.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = State.cpp; sourceTree = "<group>"; };
+		2D1527101C60512D000B4404 /* State.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = State.hpp; sourceTree = "<group>"; };
+		2D1527111C60512D000B4404 /* StateIdentifiers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StateIdentifiers.hpp; sourceTree = "<group>"; };
+		2D1527121C60512D000B4404 /* StateStack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StateStack.cpp; sourceTree = "<group>"; };
+		2D1527131C60512D000B4404 /* StateStack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StateStack.hpp; sourceTree = "<group>"; };
+		2D1527141C60512D000B4404 /* StringHelpers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StringHelpers.hpp; sourceTree = "<group>"; };
+		2D1527151C60512D000B4404 /* StringHelpers.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StringHelpers.inl; sourceTree = "<group>"; };
+		2D1527161C60512D000B4404 /* TextNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextNode.cpp; sourceTree = "<group>"; };
+		2D1527171C60512D000B4404 /* TextNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TextNode.hpp; sourceTree = "<group>"; };
+		2D1527181C60512D000B4404 /* Textures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Textures; sourceTree = "<group>"; };
+		2D1527191C60512D000B4404 /* TitleState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TitleState.cpp; sourceTree = "<group>"; };
+		2D15271A1C60512D000B4404 /* TitleState.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TitleState.hpp; sourceTree = "<group>"; };
+		2D15271B1C60512D000B4404 /* Utility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utility.cpp; sourceTree = "<group>"; };
+		2D15271C1C60512D000B4404 /* Utility.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Utility.hpp; sourceTree = "<group>"; };
+		2D15271D1C60512D000B4404 /* Utility.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Utility.inl; sourceTree = "<group>"; };
+		2D15271E1C60512D000B4404 /* World.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = World.cpp; sourceTree = "<group>"; };
+		2D15271F1C60512D000B4404 /* World.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = World.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D1526A01C60509D000B4404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D15269A1C60509D000B4404 = {
+			isa = PBXGroup;
+			children = (
+				2D1526A61C60509D000B4404 /* SFML Eagle Down */,
+				2D1526A51C60509D000B4404 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D1526A51C60509D000B4404 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D1526A41C60509D000B4404 /* SFML Eagle Down.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D1526A61C60509D000B4404 /* SFML Eagle Down */ = {
+			isa = PBXGroup;
+			children = (
+				2D1526BC1C60512D000B4404 /* Aircraft.cpp */,
+				2D1526BD1C60512D000B4404 /* Aircraft.hpp */,
+				2D1526BE1C60512D000B4404 /* Animation.cpp */,
+				2D1526BF1C60512D000B4404 /* Animation.hpp */,
+				2D1526C01C60512D000B4404 /* Application.cpp */,
+				2D1526C11C60512D000B4404 /* Application.hpp */,
+				2D1526C21C60512D000B4404 /* BloomEffect.cpp */,
+				2D1526C31C60512D000B4404 /* BloomEffect.hpp */,
+				2D1526C41C60512D000B4404 /* Button.cpp */,
+				2D1526C51C60512D000B4404 /* Button.hpp */,
+				2D1526C61C60512D000B4404 /* Category.hpp */,
+				2D1526C71C60512D000B4404 /* Command.cpp */,
+				2D1526C81C60512D000B4404 /* Command.hpp */,
+				2D1526C91C60512D000B4404 /* CommandQueue.cpp */,
+				2D1526CA1C60512D000B4404 /* CommandQueue.hpp */,
+				2D1526CB1C60512D000B4404 /* Component.cpp */,
+				2D1526CC1C60512D000B4404 /* Component.hpp */,
+				2D1526CD1C60512D000B4404 /* Container.cpp */,
+				2D1526CE1C60512D000B4404 /* Container.hpp */,
+				2D1526CF1C60512D000B4404 /* DataTables.cpp */,
+				2D1526D01C60512D000B4404 /* DataTables.hpp */,
+				2D1526D11C60512D000B4404 /* EmitterNode.cpp */,
+				2D1526D21C60512D000B4404 /* EmitterNode.hpp */,
+				2D1526D31C60512D000B4404 /* Entity.cpp */,
+				2D1526D41C60512D000B4404 /* Entity.hpp */,
+				2D1526D51C60512D000B4404 /* Foreach.hpp */,
+				2D1526D61C60512D000B4404 /* Game.cpp */,
+				2D1526D71C60512D000B4404 /* Game.hpp */,
+				2D1526D81C60512D000B4404 /* GameOverState.cpp */,
+				2D1526D91C60512D000B4404 /* GameOverState.hpp */,
+				2D1526DA1C60512D000B4404 /* GameServer.cpp */,
+				2D1526DB1C60512D000B4404 /* GameServer.hpp */,
+				2D1526DC1C60512D000B4404 /* GameState.cpp */,
+				2D1526DD1C60512D000B4404 /* GameState.hpp */,
+				2D1526DE1C60512D000B4404 /* KeyBinding.cpp */,
+				2D1526DF1C60512D000B4404 /* KeyBinding.hpp */,
+				2D1526E01C60512D000B4404 /* Label.cpp */,
+				2D1526E11C60512D000B4404 /* Label.hpp */,
+				2D1526E21C60512D000B4404 /* LoadingState.cpp */,
+				2D1526E31C60512D000B4404 /* LoadingState.hpp */,
+				2D1526E41C60512D000B4404 /* Main.cpp */,
+				2D1526E51C60512D000B4404 /* MenuState.cpp */,
+				2D1526E61C60512D000B4404 /* MenuState.hpp */,
+				2D1526E71C60512D000B4404 /* MultiplayerGameState.cpp */,
+				2D1526E81C60512D000B4404 /* MultiplayerGameState.hpp */,
+				2D1526EA1C60512D000B4404 /* MusicPlayer.cpp */,
+				2D1526EB1C60512D000B4404 /* MusicPlayer.hpp */,
+				2D1526EC1C60512D000B4404 /* NetworkNode.cpp */,
+				2D1526ED1C60512D000B4404 /* NetworkNode.hpp */,
+				2D1526EE1C60512D000B4404 /* NetworkProtocol.hpp */,
+				2D1526EF1C60512D000B4404 /* ParallelTask.cpp */,
+				2D1526F01C60512D000B4404 /* ParallelTask.hpp */,
+				2D1526F11C60512D000B4404 /* Particle.hpp */,
+				2D1526F21C60512D000B4404 /* ParticleNode.cpp */,
+				2D1526F31C60512D000B4404 /* ParticleNode.hpp */,
+				2D1526F41C60512D000B4404 /* PauseState.cpp */,
+				2D1526F51C60512D000B4404 /* PauseState.hpp */,
+				2D1526F61C60512D000B4404 /* Pickup.cpp */,
+				2D1526F71C60512D000B4404 /* Pickup.hpp */,
+				2D1526F81C60512D000B4404 /* Player.cpp */,
+				2D1526F91C60512D000B4404 /* Player.hpp */,
+				2D1526FA1C60512D000B4404 /* PostEffect.cpp */,
+				2D1526FB1C60512D000B4404 /* PostEffect.hpp */,
+				2D1526FC1C60512D000B4404 /* Projectile.cpp */,
+				2D1526FD1C60512D000B4404 /* Projectile.hpp */,
+				2D1526FE1C60512D000B4404 /* README.md */,
+				2D1526FF1C60512D000B4404 /* ResourceHolder.hpp */,
+				2D1527001C60512D000B4404 /* ResourceHolder.inl */,
+				2D1527011C60512D000B4404 /* ResourceIdentifiers.hpp */,
+				2D1527031C60512D000B4404 /* SceneNode.cpp */,
+				2D1527041C60512D000B4404 /* SceneNode.hpp */,
+				2D1527051C60512D000B4404 /* SettingsState.cpp */,
+				2D1527061C60512D000B4404 /* SettingsState.hpp */,
+				2D1527091C60512D000B4404 /* SoundNode.cpp */,
+				2D15270A1C60512D000B4404 /* SoundNode.hpp */,
+				2D15270B1C60512D000B4404 /* SoundPlayer.cpp */,
+				2D15270C1C60512D000B4404 /* SoundPlayer.hpp */,
+				2D15270D1C60512D000B4404 /* SpriteNode.cpp */,
+				2D15270E1C60512D000B4404 /* SpriteNode.hpp */,
+				2D15270F1C60512D000B4404 /* State.cpp */,
+				2D1527101C60512D000B4404 /* State.hpp */,
+				2D1527111C60512D000B4404 /* StateIdentifiers.hpp */,
+				2D1527121C60512D000B4404 /* StateStack.cpp */,
+				2D1527131C60512D000B4404 /* StateStack.hpp */,
+				2D1527141C60512D000B4404 /* StringHelpers.hpp */,
+				2D1527151C60512D000B4404 /* StringHelpers.inl */,
+				2D1527161C60512D000B4404 /* TextNode.cpp */,
+				2D1527171C60512D000B4404 /* TextNode.hpp */,
+				2D1527191C60512D000B4404 /* TitleState.cpp */,
+				2D15271A1C60512D000B4404 /* TitleState.hpp */,
+				2D15271B1C60512D000B4404 /* Utility.cpp */,
+				2D15271C1C60512D000B4404 /* Utility.hpp */,
+				2D15271D1C60512D000B4404 /* Utility.inl */,
+				2D15271E1C60512D000B4404 /* World.cpp */,
+				2D15271F1C60512D000B4404 /* World.hpp */,
+				2D1526AE1C60509D000B4404 /* Resources */,
+				2D1526A71C60509D000B4404 /* Supporting Files */,
+			);
+			path = "SFML Eagle Down";
+			sourceTree = "<group>";
+		};
+		2D1526A71C60509D000B4404 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D1526A81C60509D000B4404 /* SFML Eagle Down-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D1526AE1C60509D000B4404 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D1527021C60512D000B4404 /* Sansation.ttf */,
+				2D1526E91C60512D000B4404 /* Music */,
+				2D1527071C60512D000B4404 /* Shaders */,
+				2D1527081C60512D000B4404 /* Sound */,
+				2D1527181C60512D000B4404 /* Textures */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D1526A31C60509D000B4404 /* SFML Eagle Down */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D1526B91C60509D000B4404 /* Build configuration list for PBXNativeTarget "SFML Eagle Down" */;
+			buildPhases = (
+				2D15269F1C60509D000B4404 /* Sources */,
+				2D1526A01C60509D000B4404 /* Frameworks */,
+				2D1526A11C60509D000B4404 /* Resources */,
+				2D1526A21C60509D000B4404 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SFML Eagle Down";
+			productName = "SFML Eagle Down";
+			productReference = 2D1526A41C60509D000B4404 /* SFML Eagle Down.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D15269B1C60509D000B4404 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = APM;
+				TargetAttributes = {
+					2D1526A31C60509D000B4404 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 2D15269E1C60509D000B4404 /* Build configuration list for PBXProject "SFML Eagle Down" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2D15269A1C60509D000B4404;
+			productRefGroup = 2D1526A51C60509D000B4404 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D1526A31C60509D000B4404 /* SFML Eagle Down */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D1526A11C60509D000B4404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1527511C60512D000B4404 /* Utility.inl in Resources */,
+				2D1527361C60512D000B4404 /* Music in Resources */,
+				2D1527451C60512D000B4404 /* Shaders in Resources */,
+				2D1527461C60512D000B4404 /* Sound in Resources */,
+				2D1527411C60512D000B4404 /* ResourceHolder.inl in Resources */,
+				2D15274E1C60512D000B4404 /* Textures in Resources */,
+				2D15274C1C60512D000B4404 /* StringHelpers.inl in Resources */,
+				2D1527421C60512D000B4404 /* Sansation.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D1526A21C60509D000B4404 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/usr/local/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D15269F1C60509D000B4404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1527501C60512D000B4404 /* Utility.cpp in Sources */,
+				2D1527381C60512D000B4404 /* NetworkNode.cpp in Sources */,
+				2D1527311C60512D000B4404 /* Label.cpp in Sources */,
+				2D1527441C60512D000B4404 /* SettingsState.cpp in Sources */,
+				2D15272A1C60512D000B4404 /* EmitterNode.cpp in Sources */,
+				2D1527281C60512D000B4404 /* Container.cpp in Sources */,
+				2D1527241C60512D000B4404 /* Button.cpp in Sources */,
+				2D1527271C60512D000B4404 /* Component.cpp in Sources */,
+				2D15272B1C60512D000B4404 /* Entity.cpp in Sources */,
+				2D1527351C60512D000B4404 /* MultiplayerGameState.cpp in Sources */,
+				2D15273F1C60512D000B4404 /* Projectile.cpp in Sources */,
+				2D1527251C60512D000B4404 /* Command.cpp in Sources */,
+				2D1527321C60512D000B4404 /* LoadingState.cpp in Sources */,
+				2D1527211C60512D000B4404 /* Animation.cpp in Sources */,
+				2D1527431C60512D000B4404 /* SceneNode.cpp in Sources */,
+				2D1527371C60512D000B4404 /* MusicPlayer.cpp in Sources */,
+				2D15272C1C60512D000B4404 /* Game.cpp in Sources */,
+				2D15273A1C60512D000B4404 /* ParticleNode.cpp in Sources */,
+				2D1527261C60512D000B4404 /* CommandQueue.cpp in Sources */,
+				2D15272F1C60512D000B4404 /* GameState.cpp in Sources */,
+				2D1527471C60512D000B4404 /* SoundNode.cpp in Sources */,
+				2D1527201C60512D000B4404 /* Aircraft.cpp in Sources */,
+				2D15274B1C60512D000B4404 /* StateStack.cpp in Sources */,
+				2D1527341C60512D000B4404 /* MenuState.cpp in Sources */,
+				2D15273E1C60512D000B4404 /* PostEffect.cpp in Sources */,
+				2D15272E1C60512D000B4404 /* GameServer.cpp in Sources */,
+				2D15273B1C60512D000B4404 /* PauseState.cpp in Sources */,
+				2D1527401C60512D000B4404 /* README.md in Sources */,
+				2D1527331C60512D000B4404 /* Main.cpp in Sources */,
+				2D1527301C60512D000B4404 /* KeyBinding.cpp in Sources */,
+				2D1527521C60512D000B4404 /* World.cpp in Sources */,
+				2D1527231C60512D000B4404 /* BloomEffect.cpp in Sources */,
+				2D1527291C60512D000B4404 /* DataTables.cpp in Sources */,
+				2D1527391C60512D000B4404 /* ParallelTask.cpp in Sources */,
+				2D15274D1C60512D000B4404 /* TextNode.cpp in Sources */,
+				2D1527221C60512D000B4404 /* Application.cpp in Sources */,
+				2D15272D1C60512D000B4404 /* GameOverState.cpp in Sources */,
+				2D15274A1C60512D000B4404 /* State.cpp in Sources */,
+				2D1527491C60512D000B4404 /* SpriteNode.cpp in Sources */,
+				2D15273D1C60512D000B4404 /* Player.cpp in Sources */,
+				2D1527481C60512D000B4404 /* SoundPlayer.cpp in Sources */,
+				2D15274F1C60512D000B4404 /* TitleState.cpp in Sources */,
+				2D15273C1C60512D000B4404 /* Pickup.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2D1526B71C60509D000B4404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		2D1526B81C60509D000B4404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		2D1526BA1C60509D000B4404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SFML Eagle Down/SFML Eagle Down-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D1526BB1C60509D000B4404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SFML Eagle Down/SFML Eagle Down-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D15269E1C60509D000B4404 /* Build configuration list for PBXProject "SFML Eagle Down" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1526B71C60509D000B4404 /* Debug */,
+				2D1526B81C60509D000B4404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D1526B91C60509D000B4404 /* Build configuration list for PBXNativeTarget "SFML Eagle Down" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1526BA1C60509D000B4404 /* Debug */,
+				2D1526BB1C60509D000B4404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D15269B1C60509D000B4404 /* Project object */;
+}
