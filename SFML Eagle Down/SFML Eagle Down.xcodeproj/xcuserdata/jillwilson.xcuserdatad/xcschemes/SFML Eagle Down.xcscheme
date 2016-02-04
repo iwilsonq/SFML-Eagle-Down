@@ -44,7 +44,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/jillwilson/Documents/SFML Eagle/SFML Eagle Down/SFML Eagle Down"
+      customWorkingDirectory = "/Users/jillwilson/Documents/SFML Eagle/SFML-Eagle-Down/SFML Eagle Down/SFML Eagle Down"
       buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"

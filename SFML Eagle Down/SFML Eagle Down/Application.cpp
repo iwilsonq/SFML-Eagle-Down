@@ -39,7 +39,7 @@ Application::Application()
     
     mTextures.load(Textures::Buttons,	"Textures/Buttons.png");
 
-	mStatisticsText.setFont(mFonts.get(Fonts::Main));
+    mStatisticsText.setFont(mFonts.get(Fonts::Main));
 	mStatisticsText.setPosition(5.f, 5.f);
 	mStatisticsText.setCharacterSize(10u);
 

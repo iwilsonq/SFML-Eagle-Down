@@ -3,13 +3,14 @@
 
 #include <SFML/Graphics/RenderStates.hpp>
 #include <SFML/Graphics/RenderTarget.hpp>
+#include <SFML/Graphics/Text.hpp>
 
 
 namespace GUI
 {
 
 Label::Label(const std::string& text, const FontHolder& fonts)
-: mText(text, fonts.get(Fonts::Main), 16)
+: mText()
 {
 }
 

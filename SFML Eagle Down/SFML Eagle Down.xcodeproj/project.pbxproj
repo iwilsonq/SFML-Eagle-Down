@@ -19,7 +19,6 @@
 		2D1527291C60512D000B4404 /* DataTables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526CF1C60512D000B4404 /* DataTables.cpp */; };
 		2D15272A1C60512D000B4404 /* EmitterNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526D11C60512D000B4404 /* EmitterNode.cpp */; };
 		2D15272B1C60512D000B4404 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526D31C60512D000B4404 /* Entity.cpp */; };
-		2D15272C1C60512D000B4404 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526D61C60512D000B4404 /* Game.cpp */; };
 		2D15272D1C60512D000B4404 /* GameOverState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526D81C60512D000B4404 /* GameOverState.cpp */; };
 		2D15272E1C60512D000B4404 /* GameServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526DA1C60512D000B4404 /* GameServer.cpp */; };
 		2D15272F1C60512D000B4404 /* GameState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1526DC1C60512D000B4404 /* GameState.cpp */; };
@@ -89,8 +88,6 @@
 		2D1526D31C60512D000B4404 /* Entity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Entity.cpp; sourceTree = "<group>"; };
 		2D1526D41C60512D000B4404 /* Entity.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Entity.hpp; sourceTree = "<group>"; };
 		2D1526D51C60512D000B4404 /* Foreach.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Foreach.hpp; sourceTree = "<group>"; };
-		2D1526D61C60512D000B4404 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
-		2D1526D71C60512D000B4404 /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
 		2D1526D81C60512D000B4404 /* GameOverState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameOverState.cpp; sourceTree = "<group>"; };
 		2D1526D91C60512D000B4404 /* GameOverState.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameOverState.hpp; sourceTree = "<group>"; };
 		2D1526DA1C60512D000B4404 /* GameServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameServer.cpp; sourceTree = "<group>"; };
@@ -221,8 +218,6 @@
 				2D1526D31C60512D000B4404 /* Entity.cpp */,
 				2D1526D41C60512D000B4404 /* Entity.hpp */,
 				2D1526D51C60512D000B4404 /* Foreach.hpp */,
-				2D1526D61C60512D000B4404 /* Game.cpp */,
-				2D1526D71C60512D000B4404 /* Game.hpp */,
 				2D1526D81C60512D000B4404 /* GameOverState.cpp */,
 				2D1526D91C60512D000B4404 /* GameOverState.hpp */,
 				2D1526DA1C60512D000B4404 /* GameServer.cpp */,
@@ -423,7 +418,6 @@
 				2D1527211C60512D000B4404 /* Animation.cpp in Sources */,
 				2D1527431C60512D000B4404 /* SceneNode.cpp in Sources */,
 				2D1527371C60512D000B4404 /* MusicPlayer.cpp in Sources */,
-				2D15272C1C60512D000B4404 /* Game.cpp in Sources */,
 				2D15273A1C60512D000B4404 /* ParticleNode.cpp in Sources */,
 				2D1527261C60512D000B4404 /* CommandQueue.cpp in Sources */,
 				2D15272F1C60512D000B4404 /* GameState.cpp in Sources */,
